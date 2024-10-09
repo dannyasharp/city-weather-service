@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>City Weather Headline Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="background" id="background"></div>
+
+        <div class="container">
+            <h1>Search weather headlines for cities</h1>
+            <h2>Clickable links to the stories</h2>
+
+            <h3>Select a weather office to get the recent headlines</h3>
+
+            <div class="inputGroup">
+                <select id="dropdown">
+                    <option value="BMX">BMX - Birmingham, AL</option>
+                    <option value="HUN">HUN - Huntsville, AL</option>
+                    <option value="LZK">LZK - Little Rock, AR</option>
+                    <option value="FGZ">FGZ - Flagstaff, AZ</option>
+                    <option value="LOX">LOX - Los Angeles/Oxnard, CA</option>
+                    <option value="MTR">MTR - San Francisco Bay Area, CA (Monterey)</option>
+                    <option value="PUB">PUB - Pueblo, CO</option>
+                    <option value="BOU">BOU - Boulder/Denver, CO</option>
+                    <option value="ILM">ILM - Wilmington, NC</option>
+                    <option value="MHX">MHX - Newport/Morehead City, NC</option>
+                    <option value="RAH">RAH - Raleigh, NC</option>
+                    <option value="BIS">BIS - Bismarck, ND</option>
+                    <option value="GJT">GJT - Grand Junction, CO</option>
+                    <option value="OKX">OKX - New York, NY (Upton, Long Island)</option>
+                    <option value="ALY">ALY - Albany, NY</option>
+                    <option value="BGM">BGM - Binghamton, NY</option>
+                    <option value="CLE">CLE - Cleveland, OH</option>
+                    <option value="ILN">ILN - Wilmington, OH</option>
+                    <option value="OUN">OUN - Norman, OK (Oklahoma City)</option>
+                    <option value="SJT">SJT - San Angelo, TX</option>
+                    <option value="PBZ">PBZ - Pittsburgh, PA</option>
+                    <option value="CTP">CTP - State College, PA</option>
+                    <option value="FFC">FFC - Peachtree City, GA (Atlanta)</option>
+                    <option value="CAE">CAE - Columbia, SC</option>
+                    <option value="CHS">CHS - Charleston, SC</option>
+                    <option value="FSD">FSD - Sioux Falls, SD</option>
+                    <option value="MEG">MEG - Memphis, TN</option>
+                    <option value="OHX">OHX - Nashville, TN</option>
+                    <option value="EWX">EWX - Austin/San Antonio, TX</option>
+                    <option value="FWD">FWD - Fort Worth/Dallas, TX</option>
+                    <option value="HGX">HGX - Houston/Galveston, TX</option>
+                    <option value="JAN">JAN - Jackson, MS</option>
+                    <option value="LUB">LUB - Lubbock, TX</option>
+                    <option value="SLC">SLC - Salt Lake City, UT</option>
+                    <option value="GSP">GSP - Greenville-Spartanburg, SC</option>
+                    <option value="MLB">MLB - Melbourne, FL</option>
+                    <option value="JAX">JAX - Jacksonville, FL</option>
+                    <option value="SEW">SEW - Seattle, WA</option>
+                    <option value="ABQ">ABQ - Albuquerque, NM</option>
+                </select>
+
+                <button id="getWeather">Show Headlines</button>
+            </div>
+            <div id="headerResults" class="hidden">
+                <h2> Recent Headlines </h2>
+                <div id="headlinesContainer"></div>
+            </div>
+
+        </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
