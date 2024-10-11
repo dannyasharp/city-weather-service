@@ -2,17 +2,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>City Weather Headline Search</title>
+        <title>Weather News by City</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="background" id="background"></div>
-
         <div class="container">
-            <h1>Search weather headlines for cities</h1>
-            <h2>Clickable links to the stories</h2>
-
-            <h3>Select a weather office to get the recent headlines</h3>
+            <h1>Weather News by City</h1>
+            <h2>Clickable Links to the Stories</h2>
+            <h3>Select a Weather Office to Get The Recent Headlines</h3>
 
             <div class="inputGroup">
                 <select id="dropdown">
@@ -56,17 +53,14 @@
                     <option value="SEW">SEW - Seattle, WA</option>
                     <option value="ABQ">ABQ - Albuquerque, NM</option>
                 </select>
-
                 <button id="getWeather">Show Headlines</button>
             </div>
+
             <div id="headerResults" class="hidden">
                 <h2> Recent Headlines </h2>
                 <div id="headlinesContainer"></div>
             </div>
-
-        </div>
         </div>
         <script src="script.js"></script>
     </body>
-
 </html>
